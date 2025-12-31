@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body Styling */
+
 body {
     min-height: 100vh;
     background: linear-gradient(135deg, #74ebd5, #9face6);
@@ -16,7 +16,7 @@ body {
     justify-content: center;
 }
 
-/* Label */
+
 label {
     font-size: 1.2rem;
     font-weight: 600;
@@ -24,7 +24,7 @@ label {
     margin-bottom: 8px;
 }
 
-/* Input Field */
+
 input {
     width: 280px;
     padding: 12px 15px;
@@ -35,7 +35,6 @@ input {
     margin-bottom: 15px;
 }
 
-/* Button */
 button {
     padding: 12px 25px;
     border-radius: 25px;
@@ -53,7 +52,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Weather Card */
 #main {
     margin-top: 25px;
     width: 320px;
@@ -66,7 +64,7 @@ button:hover {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Weather Content Styling (for JS output) */
+
 #main h2 {
     font-size: 1.6rem;
     margin-bottom: 10px;
@@ -77,14 +75,14 @@ button:hover {
     margin: 6px 0;
 }
 
-/* Temperature Highlight */
+
 .temp {
     font-size: 2.5rem;
     font-weight: bold;
     margin: 10px 0;
 }
 
-/* Responsive */
+
 @media (max-width: 400px) {
     input {
         width: 90%;
